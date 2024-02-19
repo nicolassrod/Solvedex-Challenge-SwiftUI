@@ -14,6 +14,23 @@
 		37C104F22B7D2BD8003D87FA /* Solvedex_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C104F12B7D2BD8003D87FA /* Solvedex_ChallengeTests.swift */; };
 		37C104FC2B7D2BD8003D87FA /* Solvedex_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C104FB2B7D2BD8003D87FA /* Solvedex_ChallengeUITests.swift */; };
 		37C104FE2B7D2BD8003D87FA /* Solvedex_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C104FD2B7D2BD8003D87FA /* Solvedex_ChallengeUITestsLaunchTests.swift */; };
+		37C1050D2B7D2C17003D87FA /* HomeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1050C2B7D2C17003D87FA /* HomeRowView.swift */; };
+		37C1050F2B7D3799003D87FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1050E2B7D3799003D87FA /* HomeView.swift */; };
+		37C105132B7D4BE5003D87FA /* DogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105122B7D4BE5003D87FA /* DogService.swift */; };
+		37C105152B7D5740003D87FA /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105142B7D5740003D87FA /* CacheAsyncImage.swift */; };
+		37C105172B7D633D003D87FA /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105162B7D633D003D87FA /* Dog.swift */; };
+		37C1051C2B7D69AB003D87FA /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 37C1051B2B7D69AB003D87FA /* CachedAsyncImage */; };
+		37C1051E2B7D7351003D87FA /* DogsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1051D2B7D7351003D87FA /* DogsResponse.swift */; };
+		37C105202B7D736A003D87FA /* DogServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1051F2B7D736A003D87FA /* DogServiceError.swift */; };
+		37C105222B7D7999003D87FA /* DogLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105212B7D7999003D87FA /* DogLoader.swift */; };
+		37C105242B7D80FE003D87FA /* DogServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105232B7D80FE003D87FA /* DogServiceTest.swift */; };
+		37C105282B7D8B92003D87FA /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105272B7D8B92003D87FA /* URLs.swift */; };
+		37C105292B7D8CEA003D87FA /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105272B7D8B92003D87FA /* URLs.swift */; };
+		37C1052A2B7D9008003D87FA /* DogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105122B7D4BE5003D87FA /* DogService.swift */; };
+		37C1052D2B7D9010003D87FA /* DogsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1051D2B7D7351003D87FA /* DogsResponse.swift */; };
+		37C1052E2B7D9010003D87FA /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105162B7D633D003D87FA /* Dog.swift */; };
+		37C1052F2B7D9010003D87FA /* DogServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1051F2B7D736A003D87FA /* DogServiceError.swift */; };
+		37C105302B7D9014003D87FA /* DogLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C105212B7D7999003D87FA /* DogLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,16 @@
 		37C104F72B7D2BD8003D87FA /* Solvedex ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solvedex ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C104FB2B7D2BD8003D87FA /* Solvedex_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvedex_ChallengeUITests.swift; sourceTree = "<group>"; };
 		37C104FD2B7D2BD8003D87FA /* Solvedex_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvedex_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37C1050C2B7D2C17003D87FA /* HomeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRowView.swift; sourceTree = "<group>"; };
+		37C1050E2B7D3799003D87FA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		37C105122B7D4BE5003D87FA /* DogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogService.swift; sourceTree = "<group>"; };
+		37C105142B7D5740003D87FA /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		37C105162B7D633D003D87FA /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		37C1051D2B7D7351003D87FA /* DogsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsResponse.swift; sourceTree = "<group>"; };
+		37C1051F2B7D736A003D87FA /* DogServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogServiceError.swift; sourceTree = "<group>"; };
+		37C105212B7D7999003D87FA /* DogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogLoader.swift; sourceTree = "<group>"; };
+		37C105232B7D80FE003D87FA /* DogServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogServiceTest.swift; sourceTree = "<group>"; };
+		37C105272B7D8B92003D87FA /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C1051C2B7D69AB003D87FA /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +125,9 @@
 			children = (
 				37C104DF2B7D2BD6003D87FA /* Solvedex_ChallengeApp.swift */,
 				37C104E12B7D2BD6003D87FA /* ContentView.swift */,
+				37C105262B7D8B70003D87FA /* Network */,
+				37C1050A2B7D2BED003D87FA /* Home */,
+				37C105192B7D6492003D87FA /* Cache */,
 				37C104E32B7D2BD8003D87FA /* Assets.xcassets */,
 				37C104E52B7D2BD8003D87FA /* Solvedex_Challenge.entitlements */,
 				37C104E62B7D2BD8003D87FA /* Preview Content */,
@@ -116,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				37C104F12B7D2BD8003D87FA /* Solvedex_ChallengeTests.swift */,
+				37C105232B7D80FE003D87FA /* DogServiceTest.swift */,
 			);
 			path = "Solvedex ChallengeTests";
 			sourceTree = "<group>";
@@ -127,6 +159,76 @@
 				37C104FD2B7D2BD8003D87FA /* Solvedex_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "Solvedex ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		37C1050A2B7D2BED003D87FA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				37C105182B7D6346003D87FA /* Model */,
+				37C105112B7D4B56003D87FA /* Service */,
+				37C105102B7D4B48003D87FA /* Presentation */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		37C1050B2B7D2BF2003D87FA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				37C1050C2B7D2C17003D87FA /* HomeRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		37C105102B7D4B48003D87FA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				37C105312B7D9683003D87FA /* UIKit */,
+				37C1050B2B7D2BF2003D87FA /* Components */,
+				37C1050E2B7D3799003D87FA /* HomeView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		37C105112B7D4B56003D87FA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				37C105122B7D4BE5003D87FA /* DogService.swift */,
+				37C105212B7D7999003D87FA /* DogLoader.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		37C105182B7D6346003D87FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37C105162B7D633D003D87FA /* Dog.swift */,
+				37C1051D2B7D7351003D87FA /* DogsResponse.swift */,
+				37C1051F2B7D736A003D87FA /* DogServiceError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37C105192B7D6492003D87FA /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				37C105142B7D5740003D87FA /* CacheAsyncImage.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		37C105262B7D8B70003D87FA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				37C105272B7D8B92003D87FA /* URLs.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		37C105312B7D9683003D87FA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +247,9 @@
 			dependencies = (
 			);
 			name = "Solvedex Challenge";
+			packageProductDependencies = (
+				37C1051B2B7D69AB003D87FA /* CachedAsyncImage */,
+			);
 			productName = "Solvedex Challenge";
 			productReference = 37C104DC2B7D2BD6003D87FA /* Solvedex Challenge.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +322,9 @@
 				Base,
 			);
 			mainGroup = 37C104D32B7D2BD6003D87FA;
+			packageReferences = (
+				37C1051A2B7D69AB003D87FA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 37C104DD2B7D2BD6003D87FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +368,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C104E22B7D2BD6003D87FA /* ContentView.swift in Sources */,
+				37C1051E2B7D7351003D87FA /* DogsResponse.swift in Sources */,
+				37C105172B7D633D003D87FA /* Dog.swift in Sources */,
+				37C105282B7D8B92003D87FA /* URLs.swift in Sources */,
+				37C105222B7D7999003D87FA /* DogLoader.swift in Sources */,
+				37C105202B7D736A003D87FA /* DogServiceError.swift in Sources */,
+				37C105132B7D4BE5003D87FA /* DogService.swift in Sources */,
+				37C1050F2B7D3799003D87FA /* HomeView.swift in Sources */,
 				37C104E02B7D2BD6003D87FA /* Solvedex_ChallengeApp.swift in Sources */,
+				37C1050D2B7D2C17003D87FA /* HomeRowView.swift in Sources */,
+				37C105152B7D5740003D87FA /* CacheAsyncImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +385,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C105242B7D80FE003D87FA /* DogServiceTest.swift in Sources */,
+				37C1052A2B7D9008003D87FA /* DogService.swift in Sources */,
+				37C1052E2B7D9010003D87FA /* Dog.swift in Sources */,
+				37C105302B7D9014003D87FA /* DogLoader.swift in Sources */,
+				37C1052D2B7D9010003D87FA /* DogsResponse.swift in Sources */,
+				37C1052F2B7D9010003D87FA /* DogServiceError.swift in Sources */,
 				37C104F22B7D2BD8003D87FA /* Solvedex_ChallengeTests.swift in Sources */,
+				37C105292B7D8CEA003D87FA /* URLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +741,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37C1051A2B7D69AB003D87FA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37C1051B2B7D69AB003D87FA /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37C1051A2B7D69AB003D87FA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37C104D42B7D2BD6003D87FA /* Project object */;
 }
